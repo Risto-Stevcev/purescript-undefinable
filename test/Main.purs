@@ -5,8 +5,10 @@ import Prelude
 import Data.Maybe (Maybe(..))
 import Data.Undefinable (toUndefinable, toMaybe)
 
-import Control.Monad.Eff.Console (logShow)
+import Control.Monad.Eff (Eff)
+import Control.Monad.Eff.Console (CONSOLE, logShow)
 
+main :: forall e. Eff ( console :: CONSOLE | e ) Unit
 main = do
   logShow $ toUndefinable (Nothing :: Maybe Number)
   logShow $ toUndefinable (Just 42)
