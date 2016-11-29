@@ -3,7 +3,7 @@
 exports["undefined"] = undefined;
 
 exports.undefinable = function (a, r, f) {
-  return a == undefined ? r : f(a);
+  return a === undefined ? r : f(a);
 };
 
 exports.notUndefined = function (x) {
