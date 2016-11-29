@@ -1,0 +1,27 @@
+{
+  "name": "purescript-undefinable",
+  "authors": [
+    "Risto Stevcev"
+  ],
+  "description": "A library for dealing with undefinable values",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "bower.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-maybe": "^2.0.0",
+    "purescript-functions": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Risto-Stevcev/purescript-undefinable.git"
+  },
+  "devDependencies": {
+    "purescript-console": "^2.0.0"
+  }
+}
